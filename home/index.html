@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>ShoppingCart</title>
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="main-nav nav">
+          <ul>
+            <li><a class="homeBtn" href="http://127.0.0.1:5500/ShoppingCart/home/index.html">HOME</a></li>
+          </ul>
+        </nav>
+
+        <div class="product-info-header">
+
+          <h1 class="product-name">
+          </h1>
+
+          <p class="product-title">
+          </p>
+
+          <div class="product-info-btn">
+            <a href="" class="product-info-more">Learn more</a>
+          </div>
+
+        </div>
+
+      </header>
+      <section class="container content-section">
+
+           <div class="shop-page">
+           
+            <div class="shop-page-header">
+              <div class="shop-page-title">
+                <h3>New games</h3>
+                <h3>Top rated</h3>
+                <h3>Early access</h3>
+              </div>
+              <div class="shop-page-btn">
+                <button>Most popular</button>
+                <button>Free</button>
+              </div>
+
+            </div>
+            
+            <div class="product-scroll">
+
+              <div class="product-card">
+                <h3> Assassins Creed <br> Shadows</h3>
+                <div class="image-container">
+                  <img src="https://image.api.playstation.com/vulcan/ap/rnd/202404/2214/3a3aa17817bc6b2acb860fd4426ec4885831c4ee5b3623e2.jpg" alt="Product1" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$79.99</p>
+                  <button class="product-btn" id="Product1" >Add to Cart</button>
+                </div>
+              </div>
+              
+              <div class="product-card">
+                <h3> Assassins Creed <br> Mirage</h3>
+                <div class="image-container">
+                  <img src="https://image.api.playstation.com/vulcan/ap/rnd/202208/1718/NFf86jgU4AeVYgJBEoEKBpxW.jpg" alt="Product2" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$39.99</p>
+                  <button class="product-btn" id="Product2">Add to Cart</button>
+                </div>
+              </div>
+              
+              <div class="product-card">
+                <h3> Assassins Creed <br> Valhalla</h3>
+                <div class="image-container">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVITZzUd4i-phSARKRCD223a5M_1OKjE3xcziCZGqhAA&s" alt="Product3" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$29.99</p>
+                  <button class="product-btn" id="Product3">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <h3> Assassins Creed <br> Odyssey</h3>
+                <div class="image-container">
+                  <img src="https://m.media-amazon.com/images/I/81XbTZwpWLL._AC_UF894,1000_QL80_DpWeblab_.jpg" alt="Product4" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$69.99</p>
+                  <button class="product-btn" id="Product4">Add to Cart</button>
+                </div>
+              </div>
+             
+              <div class="product-card">
+                <h3> Assassins Creed <br> Origins</h3>
+                <div class="image-container">
+                  <img src="https://cdn2.steamgriddb.com/thumb/7126e65d4f7fbbb5de1cbae1dc292d0a.jpg" alt="Product5" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$59.99</p>
+                  <button class="product-btn" id="Product5">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <h3> Assassins Creed <br> Syndicate</h3>
+                <div class="image-container">
+                  <img src="https://m.media-amazon.com/images/I/815L7efIuzL._AC_UF1000,1000_QL80_.jpg" alt="Product6" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$39.99</p>
+                  <button class="product-btn" id="Product6">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <h3> Assassins Creed <br> Unity</h3>
+                <div class="image-container">
+                  <img src="https://steam-gamestore.ir/wp-content/uploads/2021/02/Assassinscreedunity.jpg" alt="Product7" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$29.99</p>
+                  <button class="product-btn" id="Product7">Add to Cart</button>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <h3> Assassins Creed <br> Black Flag</h3>
+                <div class="image-container">
+                  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4c4b7612856287.5626e31d6576f.jpg" alt="Product8" class="product-img">
+                  <div class="hover-message">Click For More</div>
+                </div>
+                <div class="shop-item-details">
+                  <p>$19.99</p>
+                  <button class="product-btn" id="Product8" >Add to Cart</button>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+      </section>
+      <section class="cart">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items cartList">
+  
+          <!-- here adds cart items to buy -->
+
+
+        </div>
+        <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">
+          PURCHASE
+        </button>
+      </section>
+      
+      <footer> 
+        <div class="container"> 
+          <div class="row"> 
+            <div class="col-md-4"> 
+              <h4>About Us</h4> 
+              <p>We are a leading provider of innovative solutions. Our mission is to deliver exceptional value to our customers.</p> 
+            </div> 
+            <div class="col-md-4"> 
+              <h4>Quick Links</h4> 
+              <ul> 
+                <li><a href="#">Home</a></li> 
+                <li><a href="#">Products</a></li> 
+                <li><a href="#">Services</a></li> 
+                <li><a href="#">Contact</a></li> 
+              </ul> 
+            </div> 
+            <div class="col-md-4"> 
+              <h4>Contact Us</h4> 
+              <p>123 Main Street<br> Anytown, USA 12345<br> Phone: (555) 555-5555<br> Email: info@example.com</p> 
+            </div> 
+          </div> 
+          <div class="row"> 
+            <div class="col-md-12 text-center"> 
+              <p>&copy; 2024 Your Company Name. All rights reserved.</p> 
+            </div> 
+          </div> 
+        </div> 
+      </footer> 
+
+    <script src="./index.js"></script>
+</body>
+</html>
